@@ -10,7 +10,7 @@
 ## create users table 
 - create table users ( id INT NOT NULL AUTO_INCREMENT, fname VARCHAR(30) NOT NULL, lname VARCHAR(30) NOT NULL, date DATE, PRIMARY KEY ( id ) );
 
-## for print query for debugging :
+## Print query for debugging
 - db.Debug().Where("ID = ?", Id).Delete(user) 
 
 ## Run raw query 
